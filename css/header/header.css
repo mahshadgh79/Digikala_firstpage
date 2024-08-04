@@ -9,7 +9,7 @@ header>div.baner{
     display: flex;
 }
 
-header>div.baner>img{
+header>div.baner>a>img{
     width: 100%;
 }
 

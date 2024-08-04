@@ -1,0 +1,67 @@
+section.four>div.box{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.four>div.box>div.title{
+    padding-bottom: 30px;
+}
+
+section.four>div.box>div.title>p{
+    font-size: 23px;
+    font-family: Iranyekan;
+}
+
+section.four>div.box>div.item{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    direction: rtl;
+    flex-wrap: wrap;
+    gap: 7px 32px;
+}
+
+section.four>div.box>div.item>a{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-decoration: none;
+    color: black;
+}
+
+section.four>div.box>div.item>a>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+section.four>div.box>div.item>a>div>div.img{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.four>div.box>div.item>a>div>div.img>img{
+    width: 90%;
+    height: 90%;
+}
+
+section.four>div.box>div.item>a>div>div.matn>p{
+    text-align: center;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px 0;
+    font-family: Iranyekan;
+}

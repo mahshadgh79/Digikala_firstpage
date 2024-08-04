@@ -1,0 +1,111 @@
+section.seven>div.box{
+    width: 93%;
+    margin: 17px auto;
+    border: 1px #e0e0e2 solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+
+section.seven>div.box>div.item{
+    width: 25%;
+    border: 1px #e0e0e2 solid;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.seven>div.box>div.item>div.title{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    direction: rtl;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 17px;
+    font-family: Iranyekan;
+}
+
+section.seven>div.box>div.item>div.title>p.one{
+    font-size: 18px;
+}
+
+section.seven>div.box>div.item>div.title>p.two{
+    font-size: 12px;
+    color: #81858B;
+}
+
+section.seven>div.box>div.item>div.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section.seven>div.box>div.item>div.items>a{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+    border: 1px #e0e0e2 solid;
+    padding: 15px 0;
+    border-top: none;
+}
+
+section.seven>div.box>div.item>div.items>a>img{
+    width: 80%;
+}
+
+section.seven>div.box>div.item1{
+    border-radius: 0 20px 20px 0;
+}
+
+section.seven>div.box>div.item2{
+    border-radius: 20px 0 0 20px;
+}
+
+section.seven>div.box>div.item>div.items>a.right{
+    border-right: none;
+}
+
+section.seven>div.box>div.item>div.items>a.left{
+    border-left: none;
+}
+
+section.seven>div.box>div.item>div.items>a.bottom{
+    border-bottom: none;
+}
+
+section.seven>div.box>div.item>div.all{
+    display: flex;
+    margin-top: 13px;
+    direction: rtl;
+}
+
+section.seven>div.box>div.item>div.all>a{
+    text-decoration: none;
+    color: #19BFD3;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: Iranyekan;
+    font-size: 12px;
+}
+
+section.seven>div.box>div.item>div.all>a>img{
+    width: 40%;
+    padding-top: 5px;
+}
+
+section.seven>div.box>div.item>div.all>a>p{
+    padding-top: 3px;
+}

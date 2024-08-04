@@ -1,0 +1,93 @@
+section.two>div.box{
+    width: 93%;
+    background-color: #EAEEED;
+    background-image: url(../freshPattern.svg);
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 15px;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+section.two>div.box>div.first{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+
+section.two>div.box>div.first>a.all{
+    text-decoration: none;
+    color: white;
+    width: 24%;
+    text-align: center;
+    background-color: #029A49;
+    font-family: Iranyekan;
+    border-radius: 40px;
+}
+
+section.two>div.box>div.first>a>img.one{
+    width: 90%;
+}
+
+section.two>div.box>div.first>a>img.two{
+    width: 95%;
+}
+
+section.two>div.box>div.second{
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    gap: 0 10px;
+}
+
+section.two>div.box>div.second>a{
+    width: 13%;
+    text-decoration: none;
+    color: #029A49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+
+}
+
+section.two>div.box>div.second>a>img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+section.two>div.box>div.second>a.last{
+    width: 21%;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 10px;
+    font-family: Iranyekan;
+    font-size: 13px;
+    display: flex;
+    gap: 0 5px;
+}
+
+section.two>div.box>div.second>a>img.last{
+    width: 20%;
+}
+
+section.two>div.box>div.second>a>div.off{
+    background-color: #D32F2F;
+    color: white;
+    font-family: Iranyekan;
+    font-size: 11px;
+    border-radius: 40px;
+    padding: 0 5px;
+    position: absolute;
+    top: 68%;
+    right: -3%;
+}

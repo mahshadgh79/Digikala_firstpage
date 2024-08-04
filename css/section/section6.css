@@ -1,0 +1,23 @@
+section.six>div.box{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 17px;
+    margin: auto;
+}
+
+section.six>div.box>a{
+    width: 50%;
+}
+
+section.six>div.box>a>div{
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+
+section.six>div.box>a>div>img{
+    width: 100%;
+    border-radius: 15px;
+}

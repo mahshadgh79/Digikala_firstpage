@@ -1,0 +1,77 @@
+section.eight>div.box{
+    width: 93%;
+    background-color: lime;
+    margin: auto;
+    padding: 15px 20px;
+    direction: rtl;
+    background-image: linear-gradient(to left ,#007295 , #35A6C8);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.eight>div.box>div.logo{
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.eight>div.box>div.logo>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+section.eight>div.box>div.logo>a>img{
+    width: 100%;
+}
+
+section.eight>div.box>div.item{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section.eight>div.box>div.item>a{
+    background-color: white;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px 0 0 10px;
+}
+
+section.eight>div.box>div.item>a.one{
+    border-radius: 0 10px 10px 0;
+}
+
+section.eight>div.box>div.item>a.two>img{
+    border-radius: 10px 0 0 10px;
+}
+
+section.eight>div.box>div.item>a>img{
+    width: 60%;
+    height: 55px;
+}
+
+section.eight>div.box>div.item>a>div.info{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+    gap: 0 8px;
+}
+
+section.eight>div.box>div.item>a>div.info>p{
+    font-family: Iranyekan;
+    font-size: 11px;
+    font-weight: bolder;
+}

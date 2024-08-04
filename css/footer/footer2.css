@@ -1,0 +1,25 @@
+footer.two>div.box{
+    width: 100%;
+    margin: auto;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+
+footer.two>div.box>div{
+    width: 13%;
+}
+
+footer.two>div.box>div>a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3F4064;
+    font-size: 13px;
+    padding-top: 10px;
+    font-family: Iranyekan;
+}

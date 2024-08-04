@@ -1,0 +1,62 @@
+footer.three>div.box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    padding: 0 20px 30px 20px;
+    font-family: Iranyekan;
+}
+
+footer.three>div.box>div{
+    display: flex;
+    flex-flow: column;
+    padding: 0 5px;
+}
+
+footer.three>div.box>div>p{
+    font-size: 18px;
+    color: #3F4064;
+    padding: 10px 0;
+}
+
+footer.three>div.box>div>a{
+    text-decoration: none;
+    color: #81858B;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+footer.three>div.box>div>div.logo{
+    display: flex;
+    gap: 0 6%;
+    padding-bottom: 7%;
+}
+
+footer.three>div.box>div>div.input{
+    display: flex;
+    gap: 0 5px;
+}
+
+footer.three>div.box>div>div.input>input[type="email"]{
+    background-color: #F0F0F1;
+    width: 83%;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: Iranyekan;
+}
+
+footer.three>div.box>div>div.input>button{
+    background-color: #E0E0E2;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Iranyekan;
+    cursor: pointer;
+}

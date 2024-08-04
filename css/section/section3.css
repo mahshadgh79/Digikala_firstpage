@@ -1,0 +1,19 @@
+section.three>div.box{
+    width: 93%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 17px;
+    align-items: center;
+    direction: rtl;
+}
+
+section.three>div.box>a>div{
+    border-radius: 15px;
+    display: flex;
+}
+
+section.three>div.box>a>div>img{
+    width: 100%;
+    border-radius: 15px;
+}

@@ -1,0 +1,116 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(250, 250, 250);
+}
+
+header>div.baner{
+    display: flex;
+}
+
+header>div.baner>img{
+    width: 100%;
+}
+
+header>div.header{
+    width: 100%;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+header>div.header>div.logo{
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header>div.header>div.search{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 25;
+    margin-right: 10px;
+}
+
+header>div.header>div.search>div.one>a{
+    background-color: #F0F0F1;
+    padding: 9.9px 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+}
+
+header>div.header>div.search>div.two{
+    flex-grow: 99;
+    border-radius: 10px 0 0 10px;
+}
+
+header>div.header>div.search>div.two>input{
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    background-color: #F0F0F1;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Iranyekan;
+}
+
+header>div.header>div.khali{
+    width: 100px;
+    height: 10px;
+    flex-grow: 22;
+}
+
+header>div.header>a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div.header>a>div.enter{
+    display: flex;
+    padding: 8px 10px;
+    flex-grow: 1;
+    justify-content: start;
+    border-radius: 10px;
+    border: 2px solid #F0F0F1;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+header>div.header>a>div.enter>p.one{
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: Iranyekan;
+}
+
+header>div.header>a>div.enter>p.two{
+    font-size: 13px;
+    color: black;
+    border-right: 1px solid black;
+    padding-right: 8px;
+    font-family: Iranyekan;
+}
+
+header>div.header>div.sabad>a{
+    flex-grow: 1;
+    border-right: 2px solid #F0F0F1;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

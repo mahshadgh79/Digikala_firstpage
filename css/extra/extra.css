@@ -1,0 +1,41 @@
+section.extra>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.extra>a>div.contact{
+    position: fixed;
+    width: 3.5%;
+    background-color: #EF4056;
+    top: 90%;
+    right: 3.3%;
+    padding: 13px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+section.extra>div.contact>img{
+    width: 100%;
+}
+
+section.extra>a>div.market{
+    width: 9%;
+    background-color: #029A49;
+    position: fixed;
+    z-index: 100;
+    top: 90%;
+    left: 1.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    font-family: Iranyekan;
+    font-weight: bolder;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 0;
+}

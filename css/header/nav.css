@@ -1,0 +1,310 @@
+nav>div.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    padding: 0 16px;
+    font-family: Iranyekan;
+    margin-top: 10px;
+}
+
+nav>div.menu>div.right{
+    flex-grow: 5;
+    display: flex;
+}
+
+nav>div.menu>div.right>ul{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    justify-content: center;
+}
+
+nav>div.menu>div.right>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s linear all;
+    padding: 5px 0;
+}
+
+nav>div.menu>div.right>ul>li:hover{
+    border-bottom: 2px red solid;
+}
+
+nav>div.menu>div.right>ul>li>a{
+    text-decoration: none;
+    color: #62666D;
+    font-size: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+nav>div.menu>div.left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-grow: 1;
+    gap: 6px;
+    position: relative;
+}
+
+nav>div.menu>div.left>div.sub{
+    width: 0;
+    background-color: #3f4064;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-family: Iranyekan;
+    font-size: 12.5px;
+    position: absolute;
+    top: 185%;
+    left: -5%;
+    z-index: 99;
+}
+
+nav>div.menu>div.left:hover>div.sub{
+    width: 80%;
+}
+
+nav>div.menu>div.left>a{
+    font-size: 12.5px;
+    text-decoration: none;
+    color: #62666D;
+}
+
+nav>div.menu>div.right>ul>li.sub{
+    border-left: 1px solid #8a8d91;
+    padding-left: 15px;
+    color: #3F4064;
+    font-weight: bolder;
+    font-size: 13px;
+    position: relative;
+}
+
+nav>div.menu>div.right>ul>li.sub>a{
+    gap: 0 5px;
+}
+
+nav>div.menu>div.right>ul>li.border>a{
+    border-left: 1px solid #8a8d9162;
+    padding-left: 17px;
+    gap: 0 10px;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu{
+    width: 140%;
+    height: 70vh;
+    z-index: 999;
+    background-color: #e2e2e4;
+    position: absolute;
+    top: 105%;
+    right: 0.1%;
+    direction: rtl;
+    display: none;
+    padding-right: 20px;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.grey{
+    width: 0;
+    height: 100vh;
+    position: absolute;
+    top: 148%;
+    right: -10%;
+    background-color: rgba(44, 40, 40, 0.589);
+    z-index: 900;
+}
+
+nav>div.menu>div.right>ul>li.sub:hover>div.grey{
+    width: 2000%;
+}
+
+nav>div.menu>div.right>ul>li.sub:hover>div.submenu{
+    display: initial;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each{
+    position: relative;
+    padding: 5.6px 0;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>a{
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>a:hover>p{
+    color:  #D32F2F;
+    background-color: white;
+    z-index: 900;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub{
+    width: 0;
+    height: 70vh;
+    background-color: #F0F0F1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    border-radius: 0 0 0 10px;
+    overflow: hidden;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.title{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0 20px;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.title>a{
+    text-decoration: none;
+    color: #19BFD3;
+    display: flex;
+    direction: ltr;
+    font-size: 11px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items{
+    width: 100%;
+    height: 95.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 70px;
+    overflow: auto;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p{
+    display: flex;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p>a{
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 11px;
+    color: #62666D;
+    font-stretch: extra-expanded;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p>a:hover{
+    color: #D32F2F;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p.title{
+    padding: 5px 0;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p.title>a{
+    color: black;
+    font-size: 13px;
+    border-right: 2px solid #D32F2F;
+    padding-right: 7px;
+    display: flex;
+    align-items: center;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.subsub>div.items>div.item>p.title>a:hover{
+    color: #D32F2F;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub{
+    width: 500%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub.four{
+    width: 420%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub.seven{
+    width: 420%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub.eight{
+    width: 420%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub.nine{
+    width: 420%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each:hover>div.subsub.four4{
+    width: 420%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.two{
+    top: -100%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.three{
+    top: -200%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.four{
+    top: -300%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.five{
+    top: -400%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.six{
+    top: -500%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.seven{
+    top: -600%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.eight{
+    top: -700%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.nine{
+    top: -800%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.ten{
+    top: -900%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.one1{
+    top: -1000%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.two2{
+    top: -1100%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.three3{
+    top: -1200%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.four4{
+    top: -1300%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.five5{
+    top: -1400%;
+}
+
+nav>div.menu>div.right>ul>li.sub>div.submenu>div.each>div.six6{
+    top: -1500%;
+}

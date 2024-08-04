@@ -1,0 +1,23 @@
+section.five>div.box{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 17px;
+    margin: auto;
+}
+
+section.five>div.box>a{
+    width: 50%;
+}
+
+section.five>div.box>a>div{
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+
+section.five>div.box>a>div>img{
+    width: 100%;
+    border-radius: 15px;
+}

@@ -1,0 +1,103 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.slider1>div.swiper>div.swiper-button-next::after{
+    display: none;
+  }
+  
+  section.slider1>div.swiper>div.swiper-button-next{
+    width: 3.5%;
+    border: 1px solid #e0e0e2;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(./slider-nav/svgexport-16.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  section.slider1>div.swiper>div.swiper-button-prev::after{
+    display: none;
+  }
+  
+  section.slider1>div.swiper>div.swiper-button-prev{
+    width: 3.5%;
+    border: 1px solid #e0e0e2;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(./slider-nav/svgexport-15.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+section.slider1{
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-top: 2px solid #e0e0e2;
+    margin-top: 15px;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    text-decoration: none;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.each{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px 0;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.each>div.img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #98489C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.each>div.img>img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    margin: 2.5px 0;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.each>div.matn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section.slider1>div.swiper>div.swiper-wrapper>div.swiper-slide>a>div.each>div.matn>p{
+    color: #62666D;
+    font-size: 11px;
+    text-align: center;
+    line-height: 21px;
+    text-decoration: none;
+    font-family: Iranyekan;
+}
